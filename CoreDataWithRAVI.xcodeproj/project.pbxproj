@@ -7,9 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1519642626D872EF00D00DF7 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1519642526D872EF00D00DF7 /* Constants.swift */; };
+		1519642826D8748B00D00DF7 /* EmployeeListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1519642726D8748B00D00DF7 /* EmployeeListVC.swift */; };
+		1519642B26D8753700D00DF7 /* EmployeeListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1519642926D8753700D00DF7 /* EmployeeListCell.swift */; };
+		1519642C26D8753700D00DF7 /* EmployeeListVCExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1519642A26D8753700D00DF7 /* EmployeeListVCExtension.swift */; };
+		1519642E26D875F600D00DF7 /* DetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1519642D26D875F600D00DF7 /* DetailVC.swift */; };
+		1519643026D8766A00D00DF7 /* DetailsVCExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1519642F26D8766A00D00DF7 /* DetailsVCExtension.swift */; };
 		1567D70C26D725540064660C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1567D70B26D725540064660C /* AppDelegate.swift */; };
 		1567D70E26D725540064660C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1567D70D26D725540064660C /* SceneDelegate.swift */; };
-		1567D71026D725540064660C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1567D70F26D725540064660C /* ViewController.swift */; };
+		1567D71026D725540064660C /* CreateEmploeeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1567D70F26D725540064660C /* CreateEmploeeVC.swift */; };
 		1567D71326D725540064660C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1567D71126D725540064660C /* Main.storyboard */; };
 		1567D71626D725540064660C /* CoreDataWithRAVI.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1567D71426D725540064660C /* CoreDataWithRAVI.xcdatamodeld */; };
 		1567D71826D725550064660C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1567D71726D725550064660C /* Assets.xcassets */; };
@@ -42,10 +48,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1519642526D872EF00D00DF7 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		1519642726D8748B00D00DF7 /* EmployeeListVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmployeeListVC.swift; sourceTree = "<group>"; };
+		1519642926D8753700D00DF7 /* EmployeeListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmployeeListCell.swift; sourceTree = "<group>"; };
+		1519642A26D8753700D00DF7 /* EmployeeListVCExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmployeeListVCExtension.swift; sourceTree = "<group>"; };
+		1519642D26D875F600D00DF7 /* DetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailVC.swift; sourceTree = "<group>"; };
+		1519642F26D8766A00D00DF7 /* DetailsVCExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsVCExtension.swift; sourceTree = "<group>"; };
 		1567D70826D725540064660C /* CoreDataWithRAVI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreDataWithRAVI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1567D70B26D725540064660C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1567D70D26D725540064660C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1567D70F26D725540064660C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1567D70F26D725540064660C /* CreateEmploeeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateEmploeeVC.swift; sourceTree = "<group>"; };
 		1567D71226D725540064660C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1567D71526D725540064660C /* CoreDataWithRAVI.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataWithRAVI.xcdatamodel; sourceTree = "<group>"; };
 		1567D71726D725550064660C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -90,6 +102,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1519642426D8702E00D00DF7 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				1519642926D8753700D00DF7 /* EmployeeListCell.swift */,
+				1519642A26D8753700D00DF7 /* EmployeeListVCExtension.swift */,
+				1519642F26D8766A00D00DF7 /* DetailsVCExtension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
 		1567D6FF26D725540064660C = {
 			isa = PBXGroup;
 			children = (
@@ -118,10 +140,9 @@
 				1567D74526D732060064660C /* Manager */,
 				1567D74426D731F50064660C /* Repository */,
 				1567D74826D732360064660C /* Controllers */,
-				1567D70B26D725540064660C /* AppDelegate.swift */,
 				1567D74926D732430064660C /* Constants */,
 				1567D70D26D725540064660C /* SceneDelegate.swift */,
-				1567D70F26D725540064660C /* ViewController.swift */,
+				1567D70B26D725540064660C /* AppDelegate.swift */,
 				1567D71126D725540064660C /* Main.storyboard */,
 				1567D71726D725550064660C /* Assets.xcassets */,
 				1567D71926D725550064660C /* LaunchScreen.storyboard */,
@@ -186,6 +207,10 @@
 		1567D74826D732360064660C /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				1519642426D8702E00D00DF7 /* Extension */,
+				1567D70F26D725540064660C /* CreateEmploeeVC.swift */,
+				1519642726D8748B00D00DF7 /* EmployeeListVC.swift */,
+				1519642D26D875F600D00DF7 /* DetailVC.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -193,6 +218,7 @@
 		1567D74926D732430064660C /* Constants */ = {
 			isa = PBXGroup;
 			children = (
+				1519642526D872EF00D00DF7 /* Constants.swift */,
 			);
 			path = Constants;
 			sourceTree = "<group>";
@@ -327,16 +353,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1519642826D8748B00D00DF7 /* EmployeeListVC.swift in Sources */,
 				1567D75326D7364B0064660C /* CDEmployee+CoreDataProperties.swift in Sources */,
+				1519642626D872EF00D00DF7 /* Constants.swift in Sources */,
+				1519642B26D8753700D00DF7 /* EmployeeListCell.swift in Sources */,
 				1567D75526D736820064660C /* Employee.swift in Sources */,
-				1567D71026D725540064660C /* ViewController.swift in Sources */,
+				1519642E26D875F600D00DF7 /* DetailVC.swift in Sources */,
+				1567D71026D725540064660C /* CreateEmploeeVC.swift in Sources */,
 				1567D75726D73B910064660C /* EmployeeManager.swift in Sources */,
 				1567D74F26D733720064660C /* EmployeeDataRepository.swift in Sources */,
 				1567D70C26D725540064660C /* AppDelegate.swift in Sources */,
 				1567D71626D725540064660C /* CoreDataWithRAVI.xcdatamodeld in Sources */,
 				1567D75226D7364B0064660C /* CDEmployee+CoreDataClass.swift in Sources */,
 				1567D70E26D725540064660C /* SceneDelegate.swift in Sources */,
+				1519642C26D8753700D00DF7 /* EmployeeListVCExtension.swift in Sources */,
 				1567D74326D727790064660C /* PersistentStorage.swift in Sources */,
+				1519643026D8766A00D00DF7 /* DetailsVCExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
